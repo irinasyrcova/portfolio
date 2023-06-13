@@ -36,6 +36,10 @@ ul {
     margin: 0 auto;
 }
 
+.bg-color {
+    background-color: #F2F8F6;
+}
+
 /* header */
 
 .header {
@@ -289,10 +293,9 @@ ul {
 
 /* inner-page-tours */
 
-.inner-page-tours {
+.inner-page {
     padding-top: 60px;
-    padding-bottom: 98px;
-    background-color: #F2F8F6;
+    padding-bottom: 100px;
 }
 
 .inner-page-tours-header {
@@ -311,9 +314,9 @@ ul {
 }
 
 .cards-column {
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-link-wrapper {
@@ -376,4 +379,116 @@ ul {
 
     text-overflow: ellipsis;
     overflow: hidden;
+}
+
+
+/* Article-page */
+
+.row-article-page {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.inner-page-nav {
+    width: 270px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.article-page-nav-title {
+    font-size: 28px;
+    color: #31405B;
+    margin-bottom: 34px;
+}
+
+.article-page-nav-list {
+    border-top: 1px solid #D6D9D8;
+    font-size: 20px;
+}
+
+.article-page-nav-list li {
+    border-bottom: 1px solid #D6D9D8;
+}
+
+.article-page-nav-list a {
+    display: block;
+    color: #138ECE;
+    text-decoration: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.article-page-nav-list a:hover {
+    text-decoration: underline;
+}
+
+.article-page-nav-list a.active {
+    color: #E04E4E;
+    font-weight: 700;
+}
+
+.article-page-article {
+    width: 770px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.article-page-article h1,
+.article-page-article h2,
+.article-page-article h3,
+.article-page-article h4,
+.article-page-article h5,
+.article-page-article h6 {
+    color: #31405B;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.article-page-article h1 {
+    font-size: 54px;
+    margin-bottom: 40px;
+    margin-top: -6px;
+}
+
+.article-page-article h2 {
+    font-size: 32px;
+    margin-top: 27px;
+}
+
+.article-page-article h3 {
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+.article-page-article h4 {
+    font-size: 22px;
+    margin-top: 24px;
+}
+
+.article-page-article h5 {
+    font-size: 20px;
+}
+
+.article-page-article h6 {
+    font-size: 18px;
+}
+
+.article-page-article p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #31405B;
+}
+
+.article-page-article>*:last-child {
+    margin-bottom: 0;
+}
+
+.article-page-article img {
+    margin: 40px 0;
+}
+
+.article-page-article a {
+    color: #138ECE;
 }
