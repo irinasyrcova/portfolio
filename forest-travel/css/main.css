@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
     font-family: 'PT Sans', sans-serif;
     color: #31405B;
+}
+
+body > * {
+    flex-shrink: 0;
 }
 
 input {
@@ -38,6 +50,21 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+fieldset {
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .container {
@@ -230,6 +257,7 @@ ul {
 /* Footer */
 
 .footer {
+    margin-top: auto;
     background-color: #265847;
     padding-top: 70px;
     padding-bottom: 90px;
