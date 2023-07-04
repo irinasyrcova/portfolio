@@ -1,0 +1,297 @@
+@media (max-width: 1199px) {
+    .container {
+        width: 900px;
+    }
+
+    .header {
+        height: 591px;
+    }
+
+    .header-top,
+    .header-content {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header-nav-button {
+        display: block;
+        background: transparent;
+        border: none;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 52px;
+    }
+
+    .header-scroll {
+        font-size: 0;
+    }
+
+    .main {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .main-header {
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    .main-content-text {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        width: 420px;
+    }
+
+    .main-img {
+        width: 420px;
+    }
+
+    .main-row {
+        margin-bottom: 80px;
+    }
+
+
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-widget-services {
+        display: none;
+    }
+
+    .footer-row {
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer-logo .logo {
+        font-size: 30px;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-copyright {
+        width: auto;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+    }
+
+    .footer-wiget-title {
+        margin-bottom: 20px;
+    }
+
+    .footer-widget-info {
+        width: 195px;
+    }
+}
+
+
+
+
+@media (max-width: 899px) {
+    .container {
+        width: 600px;
+    }
+
+    .header-content {
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 42px;
+    }
+
+    .header-content p {
+        font-size: 20px;
+    }
+
+    .main {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .main .container {
+        width: 100%;
+    }
+
+    .main-header {
+        font-size: 42px;
+    }
+
+    .main-content-text {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 18px;
+        height: 46px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main-content {
+        width: auto;
+    }
+
+    .main-img {
+        width: 170px;
+        flex-shrink: 0;
+        margin-right: 30px;
+    }
+
+    .main-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .main-row {
+        flex-direction: row-reverse;
+        margin-bottom: 60px;
+    }
+
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer .container {
+        width: 100%;
+    }
+
+    .footer-widgets-wrapper {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .footer-copyright {
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media (max-width: 599px) {
+    .container {
+        width: 320px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .header-title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .header-content p {
+        font-size: 18px;
+    }
+
+    .main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main .container {
+        width: 100%;
+    }
+
+    .main-header {
+        font-size: 34px;
+    }
+
+    .main-img {
+        width: auto;
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .main-row {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    .main-row:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-widget-services {
+        display: block;
+        width: auto;
+    }
+
+    .footer-widget-contacts {
+        width: auto;
+    }
+
+    .footer-widgets-wrapper {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .footer-widget+.footer-widget {
+        margin-left: 0px;
+    }
+
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+
+    .footer-widget:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer-widget-info {
+        width: auto;
+    }
+
+    .footer-wiget-title {
+        font-size: 20px;
+    }
+
+    .footer-widget a,
+    .footer-widget p {
+        font-size: 16px;
+    }
+
+    .footer-widget {
+        padding-top: 0px;
+    }
+
+    .footer-logo {
+        margin-bottom: 0px;
+    }
+
+    .footer-copyright {
+        width: 290px;
+    }
+}

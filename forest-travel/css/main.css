@@ -68,8 +68,10 @@ legend {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .bg-color {
@@ -94,7 +96,7 @@ legend {
     color: #FFFFFF;
     text-decoration: none;
 
-    padding: 12px 40px;
+    padding: 12px 41px;
     background: #0AC883;
     box-shadow: 0px 8px 20px rgba(24, 219, 148, 0.35);
     border-radius: 50px;
@@ -127,7 +129,7 @@ legend {
     align-items: center;
 }
 
-.heder-top {
+.header-top {
     width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -143,6 +145,10 @@ legend {
 
 .header-nav {
     font-size: 22px;
+}
+
+.header-nav-button {
+    display: none;
 }
 
 .header-nav-list {
@@ -173,7 +179,9 @@ legend {
 
 .header-title {
     margin-bottom: 20px;
+    margin-top: 15px;
     font-size: 60px;
+    line-height: 1;
 }
 
 .header-content p {
@@ -201,7 +209,7 @@ legend {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 24px;
+    width: 18px;
     height: 24px;
     background-image: url(./../img/header/arrow-down.svg);
 }
@@ -637,6 +645,7 @@ legend {
 .form-group-title {
     font-size: 20px;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 .form-group-row {
