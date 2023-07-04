@@ -99,9 +99,6 @@
     }
 }
 
-
-
-
 @media (max-width: 899px) {
     .container {
         width: 600px;
@@ -177,6 +174,7 @@
         width: 100%;
         justify-content: space-between;
         margin-bottom: 50px;
+        padding-top: 0;
     }
 
     .footer-copyright {
@@ -187,10 +185,6 @@
         margin-left: 0px;
     }
 }
-
-
-
-
 
 @media (max-width: 599px) {
     .container {

@@ -254,7 +254,6 @@ legend {
 }
 
 .main-content-text p {
-    margin-top: 0;
     margin-bottom: 15px;
 }
 
@@ -314,7 +313,6 @@ legend {
 
 .footer-widget p {
     margin-bottom: 15px;
-    margin-top: 0;
 }
 
 .footer-widget p:last-child {
