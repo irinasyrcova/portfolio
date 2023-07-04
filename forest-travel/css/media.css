@@ -83,7 +83,7 @@
     }
 
     .footer-copyright {
-        width: auto;
+        width: 195px;
     }
 
     .footer-copyright p {
@@ -256,6 +256,7 @@
     .footer-widgets-wrapper {
         flex-direction: column;
         padding-top: 0;
+        margin-bottom: 40px;
     }
 
     .footer-widget+.footer-widget {
