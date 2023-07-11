@@ -1,0 +1,45 @@
+.main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.main-content-header {
+    margin-bottom: 20px;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.main-row:last-child {
+    margin-bottom: 0;
+}
+
+.main-row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.main-content {
+    width: 470px;
+}
+
+.main-img {
+    width: 570px;
+}
+
+.main-content-text {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.main-content-text p {
+
+    margin-bottom: 15px;
+}
+
+.main-content-text a {
+    color: #138ECE;
+}
